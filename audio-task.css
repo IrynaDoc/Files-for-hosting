@@ -1,0 +1,54 @@
+body {
+  margin: 0 auto;
+  padding: 0 40px;
+  font-size: 14px;
+  border: 2px black dotted;
+  background: url(../back.jpg) 0 0 repeat;
+}
+.main-title {
+  font-size: 14px;
+  color: rgb(20, 15, 90);
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.sub-title {
+  font-size: 12px;
+  color: rgb(20, 15, 90);
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.text {
+  text-indent: 15px;
+}
+.picture {
+  float: left;
+  margin: 20px;
+}
+.picture__faces {
+  margin: 2px;
+}
+.block {
+  display: block;
+}
+.list {
+  list-style-type: square;
+}
+.list li {
+  margin-bottom: 15px;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: rgb(185, 0, 227);
+}
+a:hover {
+  color: rgb(180, 12, 12);
+}
+a:active {
+  color: rgb(162, 211, 15);
+}
+.gallery {
+  width: 100%;
+  margin: 0 auto;
+}
